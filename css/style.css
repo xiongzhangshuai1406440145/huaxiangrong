@@ -42,4 +42,34 @@ img{max-width:100%;}
 	position:relative;
 	float: right;
 }
+.menu{
+	float: left;
+	margin-right: 40px;
+}
+.menu li{
+	float: left;
+	margin-right: 10px;
+}
+.menu li.active a,.menu li a:hover{
+	color: #FFFF00;
+}
+.menu li a{
+	font-size: 1.25em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: '华文中宋';
+	margin:0px 20px;
+	font-weight: 300;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.container { 
+	position: relative; 
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;	
+}
 
