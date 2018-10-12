@@ -72,4 +72,11 @@ img{max-width:100%;}
 	-o-transition: all 1s ease;
 	transition: all 1s ease;	
 }
-
+#filters {
+	margin:3% 1%;
+	padding:0;
+	list-style:none;
+}
+#filters li {
+	float:left;
+}
