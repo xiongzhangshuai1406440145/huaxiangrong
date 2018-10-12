@@ -32,4 +32,14 @@ img{max-width:100%;}
 .header{
 	padding: 2% 4%;
 }
+.logo{
+	float: left;
+}
+.logo h1 a{
+	display: block;
+}
+.h_right{
+	position:relative;
+	float: right;
+}
 
