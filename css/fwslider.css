@@ -1,0 +1,16 @@
+/* ------------------------------- 3. Slider Styles ------------------------------- */
+body > div.images-slider {
+	margin-bottom: -5px;
+}
+#fwslider {
+    position: relative;
+    width:100%;
+}
+#fwslider .slide {
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    width:100%;
+}
