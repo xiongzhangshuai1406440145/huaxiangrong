@@ -80,3 +80,7 @@ img{max-width:100%;}
 #filters li {
 	float:left;
 }
+.header-1{
+	width: 80%;
+	margin: 0px auto;
+}
