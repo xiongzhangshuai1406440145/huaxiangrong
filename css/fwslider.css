@@ -23,3 +23,58 @@ body > div.images-slider {
     left:-50px;   
     z-index: 10;
 }
+#fwslider .slidePrev span {
+	background-image: url("../images/sliderarrows.png");
+	width: 60px;
+	height: 60px;
+	float: left;
+	background-position: 13px 0px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#fwslider .slideNext {
+    position: absolute;
+    top:50%;
+    right:-50px;  
+    z-index: 10;
+}
+#fwslider .slideNext span {
+ 	 background-image: url("../images/sliderarrows.png");
+	width: 60px;
+	height: 60px;
+	float: left;
+	background-position: -70px 0px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+#fwslider .timers {
+    height:4px;
+    position: absolute;
+    bottom:15px;
+    right:0;
+    z-index: 3;
+}
+.slide-btns{
+	margin-top: 0.5em;
+}
+.slide-btns ul li{
+	display:inline-block;
+	margin-right: 1em;
+}
+.slide-btns ul li a{
+	color: #FFF;
+	font-size: 0.72em;
+	text-transform: uppercase;
+	border:solid 2px #FFF;
+	border-radius: 5px;
+	padding: 0.8em 1.2em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	display: block;
+}
+.slide-btns ul li a:hover{
+	background:#1DD2AF;
+	border:solid 2px #1DD2AF;
+}
