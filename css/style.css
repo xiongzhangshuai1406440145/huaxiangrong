@@ -232,3 +232,28 @@ img{max-width:100%;}
 	border-radius: 2em;
 	color: #ff0000;
 }
+ #options li a:hover {
+ background: #ff3333;
+}
+#options li.active {
+ background: #ff3333;
+}
+.grid figure {
+	margin: 0;
+	position: relative;
+	text-align:center;
+}
+
+.grid figure img {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0000FF;
+	color: #fff;
+}
