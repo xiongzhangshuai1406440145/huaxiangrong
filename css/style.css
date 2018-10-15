@@ -88,3 +88,18 @@ img{max-width:100%;}
 	background: #330044;
 	padding:2% 0;
 }
+.portfolio-wrapper  a span img{
+	width:40px;
+	height:40px;
+}
+.gallerylist-wrapper  a{
+	display:block;
+}
+
+.gallerylist-wrapper a:hover span{
+	opacity: 1;	
+}
+.gallerylist-wrapper  a span img{
+	width:40px;
+	height:40px;
+}
