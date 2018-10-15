@@ -122,3 +122,16 @@ img{max-width:100%;}
 	margin:0 0 10px;
 	text-align:center;
 }
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+  list-style:none;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
