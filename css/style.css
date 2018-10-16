@@ -257,3 +257,31 @@ img{max-width:100%;}
 	background: #0000FF;
 	color: #fff;
 }
+.grid figcaption h3 {
+	margin: 20px 0 5px;
+	padding: 0;
+	color: #fff;
+	font-size:16px;
+	line-height:18px;
+}
+.grid figcaption h3 a {
+	color:#fff;
+}
+
+.grid figcaption .meta-box {
+	color:#fff;
+}
+.grid figcaption span a {
+	font-size:14px;
+	color:#fff;
+}
+.grid figcaption span a:hover {
+	color:#fff;
+}
+
+.grid figcaption footer {
+	position:absolute;
+	bottom: 46px;
+	text-align:center;
+	width:100%;
+}
