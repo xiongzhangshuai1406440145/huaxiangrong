@@ -21,7 +21,8 @@ $.Isotope.prototype._getCenteredMasonryColumns = function() {
     // i.e. this.masonry.columnWidth = ...
     this.masonry.columnWidth = colW;
   };
-    $.Isotope.prototype._masonryReset = function() {
+  
+  $.Isotope.prototype._masonryReset = function() {
     // layout-specific props
     this.masonry = {};
     // FIXME shouldn't have to call this again
@@ -57,5 +58,62 @@ $.Isotope.prototype._getCenteredMasonryColumns = function() {
           width : (this.masonry.cols - unusedCols) * this.masonry.columnWidth
         };
   };
+
+
+  $(function(){
+    
+    var $container = $('#container');
+      
+    $container.isotope({
+      itemSelector : '.element',
+      masonry : {
+        columnWidth : 295
+      }
+    });
+      
+    
+      var $optionSets = $('#options .option-set'),
+          $optionLinks = $optionSets.find('a');
+
+      $optionLinks.click(function(){
+        var $this = $(this);
+        // don't proceed if already selected
+        if ( $this.hasClass('selected') ) {
+          return false;
+        }
+        var $optionSet = $this.parents('.option-set');
+        $optionSet.find('.selected').removeClass('selected');
+        $this.addClass('selected');
+  
+        // make option object dynamically, i.e. { filter: '.my-filter-class' }
+        var options = {},
+            key = $optionSet.attr('data-option-key'),
+            value = $this.attr('data-option-value');
+        // parse 'false' as false boolean
+        value = value === 'false' ? false : value;
+        options[ key ] = value;
+        if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
+          // changes in layout modes need extra logic
+          changeLayoutMode( $this, options )
+        } else {
+          // otherwise, apply new options
+          $container.isotope( options );
+        }
+        
+        return false;
+      });
+  });
+  
+/* =========================================================
+**************************prettyPhoto***********************
+==========================================================*/
+jQuery(window).load(function(){
+    jQuery("a[rel^='prettyPhoto']").prettyPhoto({
+        overlay_gallery: false,
+        "theme": 'light_rounded',
+        keyboard_shortcuts: true,
+        social_tools: false
+    });
+});
 
 
