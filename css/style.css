@@ -374,3 +374,18 @@ img{max-width:100%;}
 	margin-bottom: 2%;
 }
 
+/*--- footer-bottom ---*/
+.image{
+	float: left;
+}
+.copy-right
+{
+	float:right;
+	margin-right: 15px;
+}	
+.copy-right p
+{
+	font-size:0.92355em;
+	color:#999999;
+}
+
