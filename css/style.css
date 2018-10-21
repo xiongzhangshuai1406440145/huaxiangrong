@@ -362,3 +362,15 @@ img{max-width:100%;}
 	cursor: pointer;
 }
 >>>>>>> 3ca8b7d987fc0007672cf4d8e54451df1c944627
+/*--- about ---*/
+.about{
+	background: #330033;
+	padding: 5% 0 6%;
+	text-align: center;
+}
+.about h4{
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: 400;
+	margin-bottom: 2%;
+}
