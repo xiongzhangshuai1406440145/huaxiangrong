@@ -1,13 +1,6 @@
+/* =****************************xzs*************************= */
+
 ;(function($) {
-
-/*>>core*/
-/**
- * 
- * Magnific Popup Core JS file
- * 
- */
-
-
 /**
  * Private vars 
  */
