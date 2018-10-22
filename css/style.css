@@ -417,4 +417,9 @@ img{max-width:100%;}
 .about_1_of_4  img:hover{
 	opacity: 0.6;
 }
-
+.about_1_of_4  span {
+	font-size:1.2em;
+	padding:0.3em 0;
+	color: #C0BEBE;
+	line-height: 1.6em;	
+}
