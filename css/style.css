@@ -430,3 +430,11 @@ img{max-width:100%;}
 	font-family: '方正姚体';
 	font-weight : 400;
 }
+.about_1_of_4  p {
+	font-size:0.92355em;
+	padding:0.7em 0;
+	color: #C0BEBE;
+	line-height: 1.6em;	
+	text-align: left;
+	font-family: '华文行楷';
+}
