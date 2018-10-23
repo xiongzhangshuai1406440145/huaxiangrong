@@ -438,3 +438,11 @@ img{max-width:100%;}
 	text-align: left;
 	font-family: '华文行楷';
 }
+/************start-clock*********/
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
