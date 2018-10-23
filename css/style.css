@@ -423,3 +423,10 @@ img{max-width:100%;}
 	color: #C0BEBE;
 	line-height: 1.6em;	
 }
+.about_1_of_4  h3{
+	color:#ffffff;
+	margin:1.4em 0 0.2em;
+	font-size:1em;
+	font-family: '方正姚体';
+	font-weight : 400;
+}
